@@ -1,6 +1,6 @@
 # Data-Product-Project
 
-### shiny application:
+### Shiny Application
 - codes: ui.R, server.R
 - https://yuqianliu.shinyapps.io/relativistic-effect
 
