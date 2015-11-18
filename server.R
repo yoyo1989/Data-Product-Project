@@ -26,7 +26,10 @@ shinyServer(
 2. Both velocities are much less than the velocity of light. 
 3. Thus, the non-relativistic formula is preferred since it's simpler than the relativistic formula."
             })
-    output$concl <- renderText({"After playing with this applicaiton, you may conclude that when velocity is around 15000000 km/s and above, relativistic effect should be considered." })
+    output$concl <- renderText({"1. After playing with this applicaiton, you may conclude that when velocity is around 15000000 m/s and above, relativistic effect should be considered.
+2. Sending missions to Moon doesn't need to consider the relativistic effect, since the sending velocity is around 11200 m/s.
+3. Studying the explosion of stars needs to consider the relativistic effect, since the exploding velocity is around 15000000 m/s." 
+            })
     
      }
   
